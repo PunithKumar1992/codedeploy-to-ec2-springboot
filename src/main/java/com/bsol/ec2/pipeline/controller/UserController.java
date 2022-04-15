@@ -34,7 +34,7 @@ public class UserController {
 
 
 			@GetMapping(value = "/test")
-			public String test(){
+			public String hello(){
 			
 			   return "Hello World Program!!!!! Message";
 			}
