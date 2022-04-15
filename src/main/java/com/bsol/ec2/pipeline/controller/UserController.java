@@ -32,4 +32,10 @@ public class UserController {
 			return json;
 	   }
 
+
+			@GetMapping(value = "/test")
+			public String test(){
+			
+			   return "Hello World Program!!!!!";
+			}
 }
